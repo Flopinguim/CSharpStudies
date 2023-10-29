@@ -10,7 +10,7 @@ namespace Vetores
 {
     class Programa
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             int quantidadeProdutos = int.Parse(Console.ReadLine());
 
