@@ -9,7 +9,7 @@ namespace Enumerações.Entities.Enums
     public enum WorkerLevel : int
     {
         JUNIOR,
-        MID_LEVEL,
+        MIDLEVEL,
         SENIOR
     }
 }
