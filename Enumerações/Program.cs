@@ -41,13 +41,13 @@ namespace Enumerações
             };
            
 
-            for(int i = 1; i < numbersContract; i++)
+            for(int i = 0; i < numbersContract; i++)
             {
                 DateTime date;
                 double valuehour;
                 int hours;
 
-                Console.WriteLine($"Enter #{i} contract data: ");
+                Console.WriteLine($"Enter #{i+1} contract data: ");
                 Console.Write("Date (DD/MM/YYYY): ");
                 date = DateTime.Parse(Console.ReadLine());
                 Console.Write("Value per hour: ");
@@ -64,15 +64,12 @@ namespace Enumerações
 
                 worker.addContract(hourContract);
             }
-
-            
-
+           
             Console.Write("Enter month and year to calculate income (MM/YYYY): ");
             incomeDate = DateTime.Parse(Console.ReadLine());
             Console.WriteLine($"Name: {worker.Name}");
-            Console.WriteLine($"Department: {worker.departament}");
+            Console.WriteLine($"Department: {departament.Name}");
             Console.WriteLine($"Income for {incomeDate.ToString("MM/yyyy")}: {worker.income(incomeDate.Year, incomeDate.Month)}");
-
         }
     }
 }

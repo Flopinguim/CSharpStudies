@@ -27,7 +27,7 @@ namespace Enumerações.Entities
             foreach(HourContract contracts in hourContracts)
             {                
                 if(contracts.Date.Month.Equals(month) && contracts.Date.Year.Equals(year))
-                    valor =+ contracts.totalValue();
+                    valor += contracts.totalValue();
             }
             return valor + BaseSalary;
         }
