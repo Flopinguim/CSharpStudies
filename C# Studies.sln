@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilder", "StringBuil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetores", "Vetores\Vetores.csproj", "{E3AE75AD-EC6A-46A9-8EC4-DB52902ECE52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca e Polimorfismo", "..\Heranca e Polimorfismo\Heranca e Polimorfismo.csproj", "{12A74906-3F66-4899-9AA9-52FB1F992B10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heranca e Polimorfismo", "Heranca e Polimorfismo\Heranca e Polimorfismo.csproj", "{B6BF473A-E310-4A3B-A3E8-485720A383A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{E3AE75AD-EC6A-46A9-8EC4-DB52902ECE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3AE75AD-EC6A-46A9-8EC4-DB52902ECE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3AE75AD-EC6A-46A9-8EC4-DB52902ECE52}.Release|Any CPU.Build.0 = Release|Any CPU
-		{12A74906-3F66-4899-9AA9-52FB1F992B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12A74906-3F66-4899-9AA9-52FB1F992B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12A74906-3F66-4899-9AA9-52FB1F992B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12A74906-3F66-4899-9AA9-52FB1F992B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6BF473A-E310-4A3B-A3E8-485720A383A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6BF473A-E310-4A3B-A3E8-485720A383A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6BF473A-E310-4A3B-A3E8-485720A383A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6BF473A-E310-4A3B-A3E8-485720A383A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
