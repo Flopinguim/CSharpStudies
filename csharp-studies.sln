@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetores", "Vetores\Vetores.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heranca e Polimorfismo", "Heranca e Polimorfismo\Heranca e Polimorfismo.csproj", "{B6BF473A-E310-4A3B-A3E8-485720A383A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exeção", "Exeção\Exeção.csproj", "{3D67448D-79D5-4755-ADC7-EFB269CFCA8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B6BF473A-E310-4A3B-A3E8-485720A383A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6BF473A-E310-4A3B-A3E8-485720A383A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6BF473A-E310-4A3B-A3E8-485720A383A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D67448D-79D5-4755-ADC7-EFB269CFCA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D67448D-79D5-4755-ADC7-EFB269CFCA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D67448D-79D5-4755-ADC7-EFB269CFCA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D67448D-79D5-4755-ADC7-EFB269CFCA8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
